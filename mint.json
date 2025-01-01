@@ -1,21 +1,44 @@
 {
   "$schema": "https://mintlify.com/schema.json",
+<<<<<<< HEAD
   "name": "Starter Kit",
   "theme": "prism",
+=======
+  "name": "TheWiki",
+  "theme": "prism",
+  "layout": "topnav",
+  "background": {
+    "style": "gradient"
+  },
+>>>>>>> 714a57d (updated docs)
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
+<<<<<<< HEAD
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
+=======
+  "sidebar": {
+    "items": "container"
+  },
+  "codeBlock": {
+    "mode": "auto"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#2585e6",
+>>>>>>> 714a57d (updated docs)
     "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
+<<<<<<< HEAD
   "topbarLinks": [
     {
       "name": "Support",
@@ -47,10 +70,26 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://mintlify.com/blog"
+=======
+  
+  "topbarLinks": [
+    {
+      "name": "Guide",
+      "url": "mailto:hi@mintlify.com"
+    },
+    {
+      "name": "FAQ",
+      "url": "mailto:hi@mintlify.com"
+    },
+    {
+      "name": "Glossary",
+      "url": "mailto:hi@mintlify.com"
+>>>>>>> 714a57d (updated docs)
     }
   ],
   "navigation": [
     {
+<<<<<<< HEAD
       "group": "Get Started",
       "pages": [
         "introduction",
@@ -81,6 +120,66 @@
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
+=======
+      "group": "Essentials",
+      "pages": [
+        "categories/essentials/anime",
+        "categories/essentials/manga",
+        "categories/essentials/lightnovels",
+        "categories/essentials/games",
+        "categories/essentials/music",
+        "categories/essentials/hentai"
+      ]
+    },
+    {
+      "group": "Sourcing",
+      "pages": [
+        "categories/sourcing/streaming",
+        "categories/sourcing/bittorrent",
+        "categories/sourcing/irc",
+        "categories/sourcing/usenet"
+      ]
+    },
+    {
+      "group": "Torrenting",
+      "pages": [
+        "categories/torrenting/guide",
+        "categories/torrenting/clients",
+        "categories/torrenting/splittunneling"
+      ]
+    },
+    {
+      "group": "Playback",
+      "pages": [
+        "categories/playback/software",
+        "categories/playback/quality",
+        "categories/playback/htpc",
+        "categories/playback/sonarr",
+        "categories/playback/automation"
+      ]
+    },
+    {
+      "group": "Releasing",
+      "pages": [
+        "categories/releasing/standards",
+        "categories/releasing/torrents",
+        "categories/releasing/naming",
+        "categories/releasing/muxing",
+        "categories/releasing/encoding",
+        "categories/releasing/fansubbing",
+        "categories/releasing/comparisons"
+      ]
+    },
+    {
+      "group": "Examples from Mint",
+      "pages": [
+        "examples/code",
+        "examples/images",
+        "examples/markdown",
+        "examples/navigation",
+        "examples/reusable-snippets",
+        "examples/settings"
+>>>>>>> 714a57d (updated docs)
       ]
     }
   ],
