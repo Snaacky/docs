@@ -1,26 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-<<<<<<< HEAD
-  "name": "Starter Kit",
-  "theme": "prism",
-=======
   "name": "TheWiki",
   "theme": "prism",
   "layout": "topnav",
   "background": {
     "style": "gradient"
   },
->>>>>>> 714a57d (updated docs)
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-<<<<<<< HEAD
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-=======
   "sidebar": {
     "items": "container"
   },
@@ -31,46 +20,12 @@
   "colors": {
     "primary": "#0D9373",
     "light": "#2585e6",
->>>>>>> 714a57d (updated docs)
     "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
-<<<<<<< HEAD
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-=======
   
   "topbarLinks": [
     {
@@ -84,43 +39,10 @@
     {
       "name": "Glossary",
       "url": "mailto:hi@mintlify.com"
->>>>>>> 714a57d (updated docs)
     }
   ],
   "navigation": [
     {
-<<<<<<< HEAD
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-=======
       "group": "Essentials",
       "pages": [
         "categories/essentials/anime",
@@ -179,7 +101,6 @@
         "examples/navigation",
         "examples/reusable-snippets",
         "examples/settings"
->>>>>>> 714a57d (updated docs)
       ]
     }
   ],
